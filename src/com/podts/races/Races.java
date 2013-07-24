@@ -16,7 +16,10 @@ public class Races extends JavaPlugin {
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		
-    	return false;
+		if (cmd.getName().equals("races")) {
+			
+		}
+    	return true;
     	
     }
 	

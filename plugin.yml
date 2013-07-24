@@ -4,4 +4,10 @@ version: 0.01
 website: http://podts.com
 description: Allows players to choose a race.
 authors: ["flatbmx"]
-softdepend: ["Vault"]
+commands:
+  races:
+    description: Allows you to access races.
+    usage: /<command>
+    permission: races.use
+    permission-message: You do not have permission to run that command.
+    aliases: [race]
