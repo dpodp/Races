@@ -39,7 +39,6 @@ public class Race {
 			}
 		}
 		races.add(this);
-		Races.getIntstance().getRacesFile().getStringList("races").add(name);
 	}
 	
 }

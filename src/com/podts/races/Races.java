@@ -60,6 +60,7 @@ public class Races extends JavaPlugin {
 	
 	private boolean saveDB() {
 		try {
+			races.set("races", Race.getRacesByName());
 			races.save(racesfile);
 			players.save(playerfile);
 		}
