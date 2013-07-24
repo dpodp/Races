@@ -1,0 +1,7 @@
+name: Races
+main: com.podts.races.Races
+version: 0.01
+website: http://podts.com
+description: Allows players to choose a race.
+authors: ["flatbmx"]
+softdepend: ["Vault"]
